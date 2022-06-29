@@ -22,7 +22,7 @@ function randomNumber(min, max) {
 
 // Stampo in console la scelta del PC
 
-let pcNumber = randomNumber();
+let pcNumber = randomNumber(1, 5);
 console.log("Scelta del Computer: " + pcNumber);
 
 // Somma fra il numero dell'utente e quello del PC
@@ -44,11 +44,11 @@ let result = isEven(sum);
 
 if (result == true) {
     result = "pari";
-    console.log("La somma è:", result);
+    console.log("La somma è:" + result);
 
 } else {
     result = "dispari";
-    console.log("La somma è:", result);
+    console.log("La somma è:" + result);
 }
 
 // Dichiaro il vincitore
